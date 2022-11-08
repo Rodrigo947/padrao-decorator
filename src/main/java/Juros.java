@@ -1,4 +1,4 @@
-public class Juros extends BoletoDecorator {
+public class Juros extends FormaPagamentoDecorator {
 
     private int diasDeAtraso;
 

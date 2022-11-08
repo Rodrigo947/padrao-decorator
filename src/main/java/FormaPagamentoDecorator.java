@@ -1,9 +1,9 @@
-public abstract class BoletoDecorator implements IFormaPagamento {
+public abstract class FormaPagamentoDecorator implements IFormaPagamento {
 
     private IFormaPagamento formaPagamento;
     public String estrutura;
 
-    public BoletoDecorator(IFormaPagamento formaPagamento) {
+    public FormaPagamentoDecorator(IFormaPagamento formaPagamento) {
         this.formaPagamento = formaPagamento;
     }
 

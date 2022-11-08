@@ -1,4 +1,4 @@
-public class Multa extends BoletoDecorator {
+public class Multa extends FormaPagamentoDecorator {
 
     public Multa(IFormaPagamento formaPagamento) {
         super(formaPagamento);
